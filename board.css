@@ -1,0 +1,131 @@
+body {
+    /* background-color: rgba(10, 10, 10, 0.9); */
+    background-image: url(Img/MARS.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: inherit;
+}
+
+html, body{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+header {
+    background-color: rgba(18, 18, 18, 0.25);
+    border: 2px solid #c0c0c0;
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#icon {
+    position: absolute;
+    top: 1%;
+    left: 3%;
+}
+
+.hButton {
+    width: 250px;
+    border: 2px solid rgba(10, 10, 10, 0.5);
+    margin: 180px;
+    padding: 12px 10px;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #f23f71, #ff3527);
+    border-radius: 6px;
+    box-shadow: 0.5px 1px black;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.hButton:hover {
+    /* background: rgba(255,255,255,0.25);
+    color: #ff3527; */
+    border: 2px solid #ff3527;
+    box-shadow: 0 0 10px #ff3131, 0 0 40px #ff3131, 0 0 80px #ff3131;
+}
+
+
+#pass {
+    height: 250px;
+    width: fit-content;
+    margin: 250px 0 150px 850px;
+}
+
+.form {
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+    width: 50%;
+    background-color: rgba(30, 30, 30, 0.2);
+    padding: 40px 0 20px 0;
+    position: relative;
+    bottom: 550px;
+}
+
+
+@font-face {
+    font-family: hButton;
+    src: url('https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap');
+}
+
+input {
+    height: 50px;
+    width: 500px;
+    padding: 5px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(233, 99, 99);
+    background-color: rgba(10, 10, 10, 0.1);
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Cormorant SC', serif;
+
+}
+
+#submit {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgba(200, 200, 200, 0.15);
+    color: #f7f7f7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
+}
+
+
+/* footer {
+    height: 100px;
+    width: 100%;
+    color: #fff;
+    border: 5px double #6200ee;
+    background-color: rgba(98, 0, 238, 0.1);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 400px;
+}
+
+ul li {
+    display: inline;
+    margin: 40px;
+} */
